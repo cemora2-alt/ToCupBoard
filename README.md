@@ -1,23 +1,34 @@
 # ToCupBoard
 
-Sigue estos pasos para configurar un entorno de desarrollo local.
+Instrucciones para acceder y navegar por el sitio web
+Requisitos previos
 
-### Prerrequisitos
+Node.js LTS (descargar desde https://nodejs.org/
+).
 
-- Docker y Docker Compose
-- Git
+npm (se instala junto con Node.js).
 
-### Instrucciones de Configuración
+Pasos de instalación y ejecución
 
-1.  **Clona el repositorio:**
-    `git clone https://github.com/DigitalNAO/tocupboard-project.git`
-    `cd tocupboard-project`
+Descargar el repositorio desde GitHub como ZIP:
+👉 https://github.com/DigitalNAO/tocupboard-project
+.
 
-2.  **Configura las variables de entorno:**
-    Copia `.env.example` a `.env` y completa los valores requeridos (credenciales de la base de datos, claves de API para entornos sandbox).
+Extraer el archivo ZIP en la ruta C:\Users\USUARIO\ToCupBoard-main.
 
-3.  **Construye y ejecuta los contenedores de Docker:**
-    `docker-compose up -d`
+Abrir PowerShell y navegar a la carpeta del proyecto:
 
-4.  **Accede al sitio local:**
-    El sitio estará disponible en `http://localhost:8080`.
+cd C:\Users\USUARIO\ToCupBoard-main\tocupboard
+
+
+Instalar dependencias:
+
+npm install
+
+
+Levantar el servidor de desarrollo con Vite:
+
+npm run dev
+
+
+Abrir en el navegador la URL que indique la terminal (ejemplo: http://localhost:5173).
